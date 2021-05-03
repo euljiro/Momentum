@@ -3,7 +3,7 @@ const toDoForm = document.querySelector(".js-toDoForm"),
     toDoList = document.querySelector(".js-toDoList");
 
 const TODOS_LS = "toDos";
-let toDos = []; //clean에서 재 선언하기 위해
+let toDos = [];
 
 function filterFn(toDo) {
     return toDo.id === 1;
